@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+
+body {
+    background: url(bg_image.jpeg) center center no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+}
+.main {
+    display: flex;
+}
+.head, .content {
+    width: 50%;
+}
+ul {
+    padding: 14px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: end;
+
+}
+.head {
+    font-size: 70px;
+    margin-left: 270px;
+    margin-top: 140px;
+    letter-spacing: 30px;
+    font-weight: 400px;
+    margin-bottom: 0;
+}
+.head2 {
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+button {
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.text {
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+img {
+    margin-left: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+}
+.welcome-span {
+    display: block;
+    margin-top: 20px;
+    margin-left: 270px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+header {
+    display: flex;
+}
+nav {
+    margin-left: 300px;
+}
+nav ul li {
+    display: flex;
+    margin-right: 75px;
+}
+.content {
+    margin-left: 270px;
+    margin-top: 100px;
+}
